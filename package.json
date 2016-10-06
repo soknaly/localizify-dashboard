@@ -1,0 +1,43 @@
+{
+  "name": "localizify-dashboard",
+  "version": "0.0.0",
+  "description": "Localizify is a web tool which is used to manage localization for your apps, websites, games.",
+  "homepage": "localizify.com",
+  "author": {
+    "name": "Sokna Ly",
+    "email": "soknaly@icloud.com",
+    "url": "soknaly.com"
+  },
+  "contributors": [],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "localizify",
+    "localization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "soknaly/localizify-dashboard"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp dev",
+    "test": "gulp test",
+    "coverage": "gulp check"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-archetype-react-app": "^1.0.0",
+    "electrode-confippet": "^1.0.0",
+    "electrode-router-resolver-engine": "^1.0.0",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "lodash": "^4.10.1"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  }
+}
